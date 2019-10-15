@@ -29,6 +29,18 @@ export default [
         icon: 'home',
         component: './Home/Home',
       },
+      {
+        path: '/dashboard/util',
+        name: 'util',
+        icon: 'icon-tool',
+        routes: [
+          {
+            path: '/dashboard/util/flow',
+            name: 'flow',
+            component: './Util/Flow',
+          },
+        ],
+      },
       // system
       {
         path: '/dashboard/system',
